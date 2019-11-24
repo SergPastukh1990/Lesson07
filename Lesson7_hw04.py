@@ -1,6 +1,6 @@
 # Открыть файл из п.3 в режиме чтения, прочитать из него содержимое, 
 # распарсить ее в словарь вида persons = {‘ross’: {информация про Роса в виде словаря}, ‘harry’: {информация про Гарри в виде словаря}}.
-with open('/Users/sergiipastukh/Desktop/python_course/Lesson 5/persons1.txt') as f:
+with open('persons1.txt') as f:
    info = (f.readlines())
 # dictionary = {'ross': info}
 harry_info = info[0].split("; ")
